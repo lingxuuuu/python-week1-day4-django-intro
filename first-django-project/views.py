@@ -12,10 +12,10 @@ def new (request):
 def create(request):
     return redirect('/')
 
-def show(request, number=66):
+def show(request, number):
     return HttpResponse(f'placeholder to display blog number: {number}')
 
-def edit(request, number=66):
+def edit(request, number):
     return HttpResponse(f'placeholder to edit blog {number}')
 
 def destroy(request, number = 66):
